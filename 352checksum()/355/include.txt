@@ -1,0 +1,5 @@
+usr/local/include
+usr/include
+.h標頭檔
+.o目的檔
+

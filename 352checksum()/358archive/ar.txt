@@ -1,0 +1,5 @@
+ar -rcs libhfseurity.a encrypt.o checksum.o
+r 表示如果.a檔已經存在則會更新
+c 表示建立收藏檔而沒有回饋訊息
+s 叫ar指令在.a檔案開頭處建立索引(index)
+lib<something>.a  靜態程式庫(static library)

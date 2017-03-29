@@ -1,0 +1,2 @@
+geo3json&bermuda < spooky.csv > outinput.json 
+$> (./geo2json | ./bermuda)< spooky.csv > outinput.json 

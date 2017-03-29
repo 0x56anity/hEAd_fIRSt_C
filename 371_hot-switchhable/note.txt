@@ -1,0 +1,14 @@
+#include <>檢視/usr/include之類的標準目錄
+
+ar指令建立目的檔的程式庫藏檔
+
+-I<name>增加目錄到標準程式庫目錄清單中
+-l<name>連結到標準目錄(如/usr/lib)裡的檔案
+-L<name>將目錄增加到標準包含目錄的清單中
+
+gcc -shared把目的的檔案轉換成動態程式庫
+動態程式庫在執行期間被連結
+動態程式庫具有.so(Unix or Linux)、.dyddl(Mac)、.ddl(MinGW)、ddl.a(Cygwin)等副檔名
+程式庫收藏檔具有像libsomething.a這樣的名稱
+動態程式庫在不同作業系統上具有不同名稱
+程式庫收藏檔是靜態連結
